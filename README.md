@@ -11,14 +11,34 @@ Fornecer uma maneira de substituir as preocupações de herança: encapsular o a
 
 # **Applicability**
 
+Uma exemplo de aplicação que iremos utilizar é a implementação de parte de um game de felinos, onde há como subclasses:
+
+ * Felinos reais;
+ * Felinos de brinquedo.
+
+Primeiro é implementado a classe de Felino que possui o aviso de qual felino é e logo após o rugido daquele felino.
+
+Depois da classe principal é implementado as classes de Leao, Leopardo e um Tigre de brinquedo.
+
+Após isso iremos criar um método de corrido onde é definido de acordo com a corrida qual o objetivo daquele felipe.
+
+ * Corrida Curta: com o objetivo bem próximo.
+ * Corrida Longa: caso necessário.
+ * Corrida de brinquedo: Onde é informado que um brinquedo não corre.
+
+Após toda a implementação necessária iremos definir qual o tipo de corrida para cada felino.
 
 # **Structure**
 
-![Imagem](http://example.com/images/logo.png)
+![Imagem](https://github.com/LucasHOliveira/Trabalho-Strategy/blob/main/Strategy.PNG)
 
 # **Participants**
 
+ * Strategy:  É uma interface comum para todas as subclasses, ou para todos os algoritmos que são suportados. O Contexto usa essa interface para chamar uma das subclasses ConcreteStrategy ou um dos algoritmos definidos.
 
+ * ConcreteStrategy: A classe concreta que herda da Strategy abstrata está definida como as subclasses ConcreteStrategyA, ConcreteStrategyB e ConcreteStrategyA.
+
+ * Context: É aquele que vai acessar um dos algoritmos das subclasses de interface Strategy.
 
 # **Sample Code**
 
