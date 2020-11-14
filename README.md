@@ -42,4 +42,4 @@ Após toda a implementação necessária iremos definir qual o tipo de corrida p
 
 # **Sample Code**
 
-[Link para a pasta do código](https://github.com/LucasHOliveira/Trabalho-TemplateMethod/tree/master/ProjetoTM-Codigo)
+[Link para a pasta do código](https://github.com/LucasHOliveira/Trabalho-Strategy/tree/main/Strategy-Codigo/ProjetoStrategy)
